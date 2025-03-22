@@ -40,21 +40,14 @@ To execute the tool:
 
 ## Usage
 
-1. **Choose the directory to scan**
-
-- The tool prompts whether to scan the current directory or enter a custom directory path.
-
-2. **Scanning for duplicate files**
-
-- The tool identifies duplicate files based on their name and size.
-
-3. **Choose an action**
-
-- **Delete All:** Permanently removes all duplicate files.
-
-- **Move to Separate Folder:** Moves duplicates to a `duplicates` folder inside the chosen directory.
-
-- **Cancel:** Exits without any modifications.
+- **Choose the directory to scan**
+  - The tool prompts whether to scan the current directory or enter a custom directory path.
+- **Scanning for duplicate files**
+  - The tool identifies duplicate files based on their name and size.
+- **Choose an action**
+  - **Delete All:** Permanently removes all duplicate files.
+  - **Move to Separate Folder:** Moves duplicates to a `duplicates` folder inside the chosen directory.
+  - **Cancel:** Exits without any modifications.
 
 ## Distributing the Binary
 
