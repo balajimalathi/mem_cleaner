@@ -67,13 +67,13 @@ To trigger your CLI tool like `mem_cleaner` from anywhere, follow these steps:
 
 ### 1. **Move Binary to System Path**
 
-To use `dpclean` from anywhere, move it to a directory in your system `PATH`:
+To use `mem_cleaner` from anywhere, move it to a directory in your system `PATH`:
 
 #### **Linux/macOS**
 
 ```sh
 
-sudo  mv  target/release/dpclean  /usr/local/bin/
+sudo  mv  target/release/mem_cleaner  /usr/local/bin/
 
 ```
 
@@ -83,7 +83,7 @@ sudo  mv  target/release/dpclean  /usr/local/bin/
 
 ```powershell
 
-Move-Item  -Path target\release\dpclean.exe  -Destination C:\Program Files\dpclean.exe
+Move-Item  -Path target\release\mem_cleaner.exe  -Destination C:\Program Files\mem_cleaner.exe
 
 ```
 
